@@ -1,62 +1,50 @@
-# OLD LENS | Photography & Visual Storytelling
+# OLD LENS
+### Photography • Visual Storytelling • Creative Direction
+
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Georgia&weight=700&size=25&duration=3000&pause=1000&color=FFFFFF&center=true&vCenter=true&width=600&lines=Capturing+Moments.;Preserving+Perspectives.;Creating+Visual+Stories.)
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Georgia&weight=700&size=32&duration=3000&pause=1000&color=FFFFFF&center=true&vCenter=true&width=600&lines=OLD+LENS+PHOTOGRAPHY;Capturing+Moments.;Creating+Stories.;Preserving+Perspectives." alt="OLD LENS Animated Title" />
-</p>
-
-<p align="center">
-  <strong>A digital photography portfolio dedicated to visual storytelling, creative expression, and professional presentation.</strong>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Photography-OLD%20LENS-black?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/HTML5-Structure-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-Styling-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-Interactive-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Status-Active-success?style=flat-square" />
-  <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" />
+  <img src="https://img.shields.io/badge/OLD%20LENS-Photography-000000?style=for-the-badge" alt="OLD LENS">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
 </p>
 
 ---
 
-## ✦ About OLD LENS
+## 01 — Introduction
 
-**OLD LENS** is a photography-focused digital portfolio designed to showcase visual content through an organized, immersive, and aesthetically driven web experience.
+**OLD LENS** is a digital photography and creative portfolio developed by **Muhammad Ansar**.
 
-Developed by **Muhammad Ansar**, the platform combines photography, creative direction, and front-end development to establish a distinctive digital identity.
+The project combines photography, visual storytelling, creative direction, and front-end web development to establish a distinctive digital presence.
 
-The project focuses on presenting photographs through an intuitive gallery experience while maintaining a structured and maintainable codebase.
+Designed around an immersive visual experience, OLD LENS showcases photographic collections through an organized gallery and a carefully structured web interface.
 
-<p align="center">
-  <em>"Photography is the art of preserving moments and transforming perspectives into stories."</em>
-</p>
+> Photography is not simply about capturing what we see. It is about preserving how we experience a moment.
 
----
+## 02 — Project Vision
 
-## ✦ Project Objectives
+The primary objective is to create a professional digital platform that:
 
-- Establish a professional digital identity for OLD LENS Photography.
-- Present photography collections through an organized gallery.
-- Deliver an intuitive and visually consistent browsing experience.
-- Implement an efficient image asset management architecture.
-- Maintain responsive presentation across different screen sizes.
-- Combine creative photography with practical web development.
+- Showcases photography and creative work.
+- Establishes a recognizable visual identity.
+- Provides an engaging gallery experience.
+- Organizes photographic assets efficiently.
+- Delivers a responsive browsing experience.
+- Combines creative expression with technical implementation.
 
-## ✦ Technology Stack
+## 03 — Technology Stack
 
-| Technology | Implementation |
+| Technology | Purpose |
 |---|---|
-| HTML5 | Semantic page structure |
-| CSS3 | Layout, styling and responsiveness |
-| JavaScript | Client-side interactions |
+| HTML5 | Semantic structure and content |
+| CSS3 | Visual design and responsive layouts |
+| JavaScript | Interactive functionality |
 | Git | Version control |
-| GitHub | Repository management |
-| GitHub Pages | Static website hosting |
+| GitHub | Source code management |
+| GitHub Pages | Static website deployment |
 
-## ✦ Project Architecture
+## 04 — Repository Architecture
 
 ```text
 OLD-LENS-PORTFOLIO/
@@ -71,10 +59,10 @@ OLD-LENS-PORTFOLIO/
 │
 ├── images/
 │   ├── thumb/
-│   │   └── Thumbnail images
+│   │   └── Gallery thumbnails
 │   │
 │   └── full/
-│       └── Full-resolution images
+│       └── Full-resolution photographs
 │
 ├── assets/
 │   └── Supporting resources
@@ -83,61 +71,69 @@ OLD-LENS-PORTFOLIO/
 └── README.md
 ```
 
-*Note: Adjust the example tree to match the actual repository structure.*
+*Directory names are illustrative. Refer to the actual repository structure when organizing files.*
 
-## ✦ Image Management Architecture
+## 05 — Photography Asset Management
 
-The photography collection is organized into two distinct image directories.
+OLD LENS maintains a separate image structure for preview and full-resolution photography.
 
-### `images/thumb/`
+### Thumbnail Collection
 
-Contains thumbnail images used for gallery previews.
+**Directory:** `images/thumb/`
 
-- Lightweight image previews.
-- Reduced initial loading overhead.
+Used for gallery previews and lightweight image presentation.
+
+- Optimized preview assets.
+- Reduced image loading overhead.
 - Efficient gallery browsing.
 - Consistent image identification.
 
-### `images/full/`
+### Full-Resolution Collection
 
-Contains higher-resolution versions of photographs.
+**Directory:** `images/full/`
 
-- Detailed photography presentation.
-- Higher-resolution viewing.
-- Separation of preview and full-size assets.
+Used for displaying higher-quality photographic content.
 
-### Asset Mapping
+- High-resolution image presentation.
+- Detailed viewing experience.
+- Separation from thumbnail assets.
+- Consistent image organization.
 
-Thumbnail and full-resolution images should use consistent filenames wherever possible.
+### Image Naming Convention
 
 ```text
 images/
+│
 ├── thumb/
 │   ├── photo-01.webp
-│   └── photo-02.webp
+│   ├── photo-02.webp
+│   └── photo-03.webp
 │
 └── full/
     ├── photo-01.jpg
-    └── photo-02.jpg
+    ├── photo-02.jpg
+    └── photo-03.jpg
 ```
 
-## ✦ Core Features
+Matching image identifiers help maintain the relationship between thumbnail previews and their corresponding full-resolution photographs.
 
-- Photography-focused portfolio presentation.
-- Organized image collections.
-- Thumbnail and full-resolution image management.
-- Responsive front-end layouts.
-- Interactive browsing functionality.
-- Structured separation of development resources.
+## 06 — Core Capabilities
 
-*Feature availability depends on the implementation in the current source code.*
+- Photography portfolio presentation.
+- Organized image gallery.
+- Thumbnail and full-resolution asset management.
+- Responsive website layouts.
+- Interactive user interface.
+- Structured front-end architecture.
 
-## ✦ Local Installation
+*The actual availability of individual features depends on the implemented source code.*
 
-### Prerequisites
+## 07 — Local Development
+
+### Requirements
 
 - Modern web browser.
-- Visual Studio Code or another code editor.
+- Visual Studio Code or equivalent editor.
 - Git (optional).
 
 ### Clone the Repository
@@ -146,94 +142,91 @@ images/
 git clone https://github.com/YOUR-USERNAME/old-lens-photography.git
 ```
 
-### Navigate to the Project
+### Enter the Project Directory
 
 ```bash
 cd old-lens-photography
 ```
 
-### Run Locally
+### Run the Website
 
-Open `index.html` in your browser or use the VS Code Live Server extension.
+Open `index.html` in your browser.
 
-## ✦ Deployment
+For development, the Visual Studio Code Live Server extension is recommended.
 
-OLD LENS can be deployed through GitHub Pages.
+## 08 — Deployment
 
-1. Push the complete project to a GitHub repository.
-2. Navigate to repository Settings.
-3. Open Pages under Code and automation.
-4. Select Deploy from a branch.
-5. Choose `main` and `/ (root)`.
-6. Save the configuration.
-7. Wait for deployment to complete.
+OLD LENS can be deployed using GitHub Pages.
 
-**Live Website:** Add your deployed URL here.
+1. Upload the complete project to GitHub.
+2. Open repository Settings.
+3. Navigate to Pages.
+4. Select **Deploy from a branch**.
+5. Select the `main` branch.
+6. Choose `/ (root)`.
+7. Save the configuration.
+8. Wait for deployment to finish.
 
-**Source Repository:** Add your repository URL here.
+**Live Website:** Add your published website URL here.
 
-## ✦ Performance & Optimization
+**GitHub Repository:** Add your repository URL here.
 
-The project architecture supports the following optimization practices:
+## 09 — Performance Considerations
 
-- Compressed and appropriately sized image assets.
-- Modern image formats such as WebP.
-- Lazy loading for off-screen images.
-- Loading full-resolution images only when required.
-- Consistent image naming conventions.
-- Organized CSS, JavaScript and media resources.
-- Reduced unnecessary external dependencies.
+Recommended optimization practices:
 
-## ✦ Development Workflow
+- Compress large photographic assets.
+- Use WebP for suitable image previews.
+- Implement lazy loading.
+- Load full-resolution images only when needed.
+- Maintain consistent image paths.
+- Avoid unnecessary external dependencies.
+- Optimize resources for mobile devices.
+
+## 10 — Development Standards
 
 Recommended Git commit conventions:
 
-```text
-feat: implement photography gallery
-style: refine responsive layouts
-perf: optimize image loading
-fix: correct image asset paths
-docs: improve project documentation
-```
+| Prefix | Description |
+|---|---|
+| `feat:` | Introduce new functionality |
+| `fix:` | Resolve an issue |
+| `style:` | Improve visual presentation |
+| `perf:` | Optimize performance |
+| `refactor:` | Improve code organization |
+| `docs:` | Update documentation |
 
-## ✦ Future Development
+## 11 — Future Development
 
-Potential development improvements:
+Potential improvements include:
 
 - Advanced gallery filtering.
-- Enhanced photography viewing experience.
+- Enhanced image viewing.
 - Improved mobile navigation.
 - Progressive image loading.
 - Accessibility improvements.
 - Search and discovery functionality.
-- Further performance optimization.
+- Additional performance enhancements.
 
-## ✦ License
+## 12 — License
 
-This project is distributed under the **MIT License**.
+Distributed under the **MIT License**.
 
-See the [LICENSE](LICENSE) file for complete licensing terms.
+See the [LICENSE](LICENSE) file for licensing details.
 
-## ✦ Author
+## 13 — Developer
 
 **Muhammad Ansar**
 
-Software Engineering Student | Front-End Development | Photography | UI/UX Design
+Software Engineering Student  
+Photography | Front-End Development | UI/UX Design
 
 Creator of **OLD LENS Photography**.
 
-<p align="center">
-  <a href="https://github.com/YOUR-USERNAME">
-    GitHub Profile
-  </a>
-</p>
-
 ---
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Georgia&weight=600&size=18&duration=3500&pause=1200&color=888888&center=true&vCenter=true&width=500&lines=Preserving+Moments.;Telling+Stories.;OLD+LENS+Photography." alt="Animated OLD LENS Footer" />
-</p>
+![Footer Animation](https://readme-typing-svg.demolab.com?font=Georgia&weight=600&size=20&duration=3500&pause=1200&color=888888&center=true&vCenter=true&width=500&lines=Preserving+Moments.;Telling+Stories.;OLD+LENS+Photography.)
 
-<p align="center">
-  <sub>Designed and developed by Muhammad Ansar.</sub>
-</p>
+**OLD LENS — Preserving Moments. Telling Stories.**
+
+© Muhammad Ansar
